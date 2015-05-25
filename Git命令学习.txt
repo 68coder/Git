@@ -6,3 +6,14 @@ git add 文件名
 多个文件用空格分开。
 添加当前目录下的所有文件。
 git add -A
+
+3、提交文件
+git commit
+输入备注信息提交
+git commit -m 备注信息
+让提交和添加一步到位
+git commit -a -m 备注信息
+
+4、下载远程git文件
+git clone URL
+
