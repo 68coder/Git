@@ -1,4 +1,4 @@
-1、创建Git版本库
+﻿1、创建Git版本库
 git init
 
 2、添加文件
@@ -9,6 +9,7 @@ git add -A
 
 3、提交文件
 git commit
+<<<<<<< HEAD
 输入备注信息提交
 git commit -m 备注信息
 让提交和添加一步到位
@@ -17,3 +18,9 @@ git commit -a -m 备注信息
 4、下载远程git文件
 git clone URL
 
+=======
+输入备注，提交
+git -commit -m 备注信息
+添加文件并提交
+git -commit -a -m 备注信息
+>>>>>>> 5c0337e633a5f456458394edffb278749cd9769d
