@@ -1,4 +1,4 @@
-1、创建Git版本库
+﻿1、创建Git版本库
 git init
 
 2、添加文件
@@ -6,3 +6,10 @@ git add 文件名
 多个文件用空格分开。
 添加当前目录下的所有文件。
 git add -A
+
+3、提交文件
+git commit
+输入备注，提交
+git -commit -m 备注信息
+添加文件并提交
+git -commit -a -m 备注信息
